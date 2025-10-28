@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 const app = express();
 app.use(express.json());
 
-const TOKEN = "ضع_هنا_التوكن_الخاص_بك";
+const TOKEN = "8364654198:AAHkRAmRK9M8WML842raWsmmq6mbWpNewBM";
 const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`;
 
 async function sendMessage(chatId, text) {
